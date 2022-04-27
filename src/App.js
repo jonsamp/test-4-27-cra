@@ -4,7 +4,6 @@ import { Consumer1 } from './components/Consumer1';
 import { Consumer2 } from './components/Consumer2';
 
 function App() {
-  console.log('Rendering App');
   return (
     <div className='App'>
       <Consumer1 />
