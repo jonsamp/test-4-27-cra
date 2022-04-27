@@ -3,6 +3,7 @@ import useToggle from '../hooks/useToggle';
 
 export function Consumer2() {
   const [on, setOn] = useToggle(false);
+  console.log('Rendering Consumer2');
 
   return (
     <div style={{ backgroundColor: 'lightcyan', padding: '1rem' }}>
