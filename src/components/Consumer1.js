@@ -7,7 +7,7 @@ export function Consumer1() {
   return (
     <div style={{ backgroundColor: 'lightpink', padding: '1rem' }}>
       <p>Consumer1: {toggleValue ? 'on' : 'off'}</p>
-      <button onClick={() => toggle()}>Toggle</button>
+      <button onClick={toggle}>Toggle</button>
     </div>
   );
 }
